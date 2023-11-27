@@ -40,7 +40,7 @@ public class NonStaticVariable {
         // Print the value of the long variable
         System.out.println("Long is: " + variable.myLong);
         
-        // Print the value of the long variable
+        // Print the value of the short variable
         System.out.println("myShort is: " + variable.myShort);
 
     }
