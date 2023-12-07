@@ -16,7 +16,7 @@ public class IncrementDecrementOperators {
 		System.out.println("Integer is : " + a--);//6
 		System.out.println("Integer is : " + a++);//5
 		System.out.println("Integer is : " + --a);//5
-		System.out.println("Integer is : " + a++);//5
+		System.out.println("Integer is : " + a++);//5j
 		
 	}
 
