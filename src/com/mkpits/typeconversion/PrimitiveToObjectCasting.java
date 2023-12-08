@@ -3,7 +3,7 @@ package com.mkpits.typeconversion;
 
 public class PrimitiveToObjectCasting {
 
-	public static void main(String []args) {
+	public static void main(String [] args) {
 		
 		//PrimitiveToObjectCasting p = new PrimitiveToObjectCasting;
 		//System.out.println(p);
