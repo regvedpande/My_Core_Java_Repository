@@ -50,6 +50,7 @@ public class ThisKeyword {
 		   System.out.println(k.getString("Regved"));
 		   System.out.println(k.getLong(9049874883L));
 		   System.out.println(k.getChar('A'));
+		   System.out.println("-----------------------------");
 	}
 	
 	
