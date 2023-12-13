@@ -18,8 +18,7 @@ public class NonStatic_Variable {
 	}
 	
 	private void getNonStaticName() {
-		Static_Variable sVV = new Static_Variable();
-		System.out.println(sVV.name);
+		System.out.println(Static_Variable.name);
 	}
 	
 	// Creating class to call non-static variable in non-static method directly.

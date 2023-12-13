@@ -22,25 +22,11 @@ public class MethodOverloading {
 		System.out.println(a);
 		return a;
 	}
-	//dont take int int in one method go with int float it is its property
-	private float getData(int i, float j) {
-		// TODO Auto-generated method stub
-		float o = i*j;
-		System.out.println(o);
-		return o;
-	}
-	
 	private boolean getData(int f, int g) {
 		
 		boolean result = f > g;
 		System.out.println(result);
 		return result;
-	}
-	
-	private void getData(float f, int g) {
-		// TODO Auto-generated method stub
-	    float add  = f+g;
-	    System.out.println(add);
 	}
 	
 	public long getData(long e, long x) {

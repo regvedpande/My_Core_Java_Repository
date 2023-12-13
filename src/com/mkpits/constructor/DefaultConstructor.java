@@ -2,16 +2,14 @@ package com.mkpits.constructor;
 
 public class DefaultConstructor {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		DefaultConstructor o = new DefaultConstructor();
-	
+    public static void main(String[] args) {
+        // Creating an object of DefaultConstructor
+        new DefaultConstructor();
+        System.out.println("Object created successfully.");
+    }
 
-	}
-//below contructor is taking reference from the above constructor	
-public DefaultConstructor() {
-	
-	System.out.println("Regved");
-}
-
+    // The default constructor
+    public DefaultConstructor() {
+        System.out.println("Regved");
+    }
 }
