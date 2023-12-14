@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class WhileLoop {
 	
-	// Variables Declaration because we want them global to access them anywhere throughout the code
+	//Variables Declaration because we want them global to access them anywhere throughout the code
 	String c;
 	private String name;
 	private String email;
