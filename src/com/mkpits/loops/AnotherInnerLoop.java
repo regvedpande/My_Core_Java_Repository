@@ -11,11 +11,20 @@ public class AnotherInnerLoop {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the Number");
 		int n = Integer.parseInt(br.readLine());
-	    for(int i=0;i<=n;i++) {
-	    	for(int j=0;j<=n;j++) {
-	    		System.out.println("In");
-	    	}
-	    	System.out.println("Out");
-	    }
+		for(int i=1;i<=n;i++) 
+		{       
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print("  ");
+			}
+			
+		    for(int j=n ;j>=i;j--)
+			{                   
+			System.out.print("   + "); 
+			}
+		    
+		    System.out.println();
+		
+		}
 	}
 }
