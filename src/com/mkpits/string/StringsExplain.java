@@ -166,9 +166,5 @@ public class StringsExplain {
 		String catbreeds = "Persian, Maine Coon, Caracal, Munchkin";
 		String[] cats = catbreeds.split(",");  // Split into an array using comma as delimiter
 		System.out.println(catbreeds);  // Note: This line prints the original string, not the array.
-
-
 	}
-	
-
 }
