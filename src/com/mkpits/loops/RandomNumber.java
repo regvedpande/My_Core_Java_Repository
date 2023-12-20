@@ -45,5 +45,3 @@ public class RandomNumber {
         System.out.println("Attempt took by you is " + attempt);
     }
 }
-
-	}

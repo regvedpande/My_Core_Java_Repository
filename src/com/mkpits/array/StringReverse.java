@@ -3,7 +3,6 @@ package com.mkpits.array;
 public class StringReverse {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
 
         // Input string to be reversed
         String name = "Regved Pande";
