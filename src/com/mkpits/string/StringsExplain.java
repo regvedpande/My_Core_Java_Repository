@@ -99,7 +99,6 @@ public class StringsExplain {
 		System.out.println(fullname);
 	}
 
-	
 
 	private void getSubstringExtraction() {
 		// Substring Extraction
