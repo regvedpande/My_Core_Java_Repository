@@ -145,9 +145,10 @@ public class StringsExplain {
 	private void getWhitespace() {
 		// Trimming Whitespace
 		// Remove leading and trailing whitespace using trim().
-		String spaceshipname = "     Millenium Falcon!      ";
+		String spaceshipname = "     Millenium Falcon!      "; //would not remove space between words as they are not white space
 		String trimmed = spaceshipname.trim();  // Remove extra spaces
 		System.out.println(trimmed);
+		//System.out.println("Trimmed name is " +spaceshipname.trim());
 		
 	}
 
