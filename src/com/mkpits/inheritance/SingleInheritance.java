@@ -38,5 +38,4 @@ public class SingleInheritance extends ChildClass {
 
 		child.getAllDetails();
 	}
-
 }
