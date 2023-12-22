@@ -184,17 +184,18 @@ public class StringsExplain {
 		System.out.println("Enter First Name :");
 		firstName = br.readLine();
 
-		System.out.println("Enter Second Name :");
-		secondName = br.readLine();
-
 		// Validation for first name
 		if (firstName.isEmpty()) {
 			System.out.println("First Name is required. ");
 			firstName = br.readLine();
 
+			System.out.println("Enter Second Name :");
+			secondName = br.readLine();
+
 			// Validation for second name
 			if (secondName.isEmpty()) {
 				System.out.println("Second Name is required");
+				secondName = br.readLine();
 			}
 		}
 	}

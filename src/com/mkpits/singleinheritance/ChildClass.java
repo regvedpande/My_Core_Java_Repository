@@ -1,4 +1,4 @@
-package com.mkpits.inheritance;
+package com.mkpits.singleinheritance;
 
 public class ChildClass extends ParentClass {
 

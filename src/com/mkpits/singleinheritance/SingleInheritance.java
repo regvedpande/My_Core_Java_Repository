@@ -1,4 +1,4 @@
-package com.mkpits.inheritance;
+package com.mkpits.singleinheritance;
 
 import java.io.BufferedReader;
 import java.io.IOException;
