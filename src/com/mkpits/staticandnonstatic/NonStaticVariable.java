@@ -1,4 +1,4 @@
-package com.mkpits.datatype;
+package com.mkpits.staticandnonstatic;
 
 public class NonStaticVariable {
     // This variable stores a pincode

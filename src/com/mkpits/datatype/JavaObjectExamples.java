@@ -1,30 +1,30 @@
-// The class name should match the name of the Java file, and all code must be written inside a class.
-
+// Package declaration: Organizes code for better maintainability
 package com.mkpits.datatype;
 
-//This Java class demonstrates the basic concepts of Java objects.
-    
-    // - Objects are instances created from classes.
-    // - They have characteristics (attributes) and behavior (methods).
-    // - Class name should match the Java file name.
-    // - All code is written inside a class.
+// Class declaration: Defines a blueprint for creating objects
+// This class represents a student
+public class JavaObjectExamples {
 
-class JavaObjectExamples {
- // Object attributes represent the student's information.
- String name;
- int id;
- double grade;
+	// Object attributes (also called fields or variables):
+	// Store the student's data
+	public String name; // Student's name
+	public int id; // Student's identification number
+	public double grade; // Student's grade point average
 
- // Object methods define the student's behavior.
- void introduce() {
-     System.out.println("My name is " + name + ", my ID is " + id + ", and my grade is " + grade);
- }
+	// Object methods: Define actions the student can perform
 
- void study(String subject) {
-     System.out.println("I am studying " + subject);
- }
+	// Introduces the student with their information
+	public void introduce() {
+		System.out.println("My name is " + name + ", my ID is " + id + ", and my grade is " + grade);
+	}
 
- void takeExam(String subject) {
-     System.out.println("I am taking an exam in " + subject);
- }
+	// Simulates the student studying a specific subject
+	public void study(String subject) {
+		System.out.println("I am studying " + subject);
+	}
+
+	// Simulates the student taking an exam in a specific subject
+	public void takeExam(String subject) {
+		System.out.println("I am taking an exam in " + subject);
+	}
 }
