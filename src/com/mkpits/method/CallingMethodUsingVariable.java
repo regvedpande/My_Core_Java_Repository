@@ -3,8 +3,7 @@ package com.mkpits.method;
 public class CallingMethodUsingVariable {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
 		String uname="rigvedpande";
 		String pass="12345678";
 		String num = "9049874883";
