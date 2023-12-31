@@ -11,10 +11,10 @@ public class Palindrome {
 
 		while (a > 0) {
 
-			int remainder = q % 10;
-			int sum = q / n + remainder;
+			remainder = q % 10;
+			sum = (sum * 10) + remainder;
+			remainder = remainder / 10;
 			System.out.println(sum);
-
 		}
 
 		if (q == a) {
