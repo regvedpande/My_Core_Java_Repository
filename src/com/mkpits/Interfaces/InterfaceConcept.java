@@ -1,4 +1,6 @@
+package com.mkpits.Interfaces;
 //It is just like class which contains abstract methods
+
 //To achieve interface java provides a keyword called 'Implements'
 //Interface methods are by default public and abstract
 //Interface variables are by default public + static + final 
@@ -9,38 +11,14 @@
 
 // Simple Input Output Program
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
-interface Client {
+//Interfaces which have by default abstract method that is the reason why we can achieve 100% abstraction in Interfaces
+//we can only make default and static method in interface after java 8
+interface InterfaceConcept {
+
 	void input() throws IOException;
 
 	void output();
-}
 
-class Regved implements Client {
-	String name;
-	double salary;
-
-	@Override
-	public void input() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter Username: ");
-		name = br.readLine();
-
-		System.out.println("Enter Salary: ");
-		salary = Double.parseDouble(br.readLine());
-	}
-
-	@Override
-	public void output() {
-		System.out.println(name + " " + salary);
-	}
-
-	public static void main(String[] args) throws IOException {
-		Client c = new Regved();
-		c.input();
-		c.output();
-	}
 }
