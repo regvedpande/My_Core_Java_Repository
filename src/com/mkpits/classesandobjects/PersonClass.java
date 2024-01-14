@@ -1,6 +1,5 @@
 package com.mkpits.classesandobjects;
 
-
 // Main class definition
 public class PersonClass {
     
@@ -55,6 +54,7 @@ public class PersonClass {
         float height;
 
         // Static variable representing the zodiac sign for Person1
+        // Static variables do not depend on an object, and you also don't need to create any object for them
         static String zodiacsign = "Cancer";
 
         // Static method to print the zodiac sign for Person1
@@ -71,6 +71,7 @@ public class PersonClass {
         float height;
 
         // Static variable representing the zodiac sign for Person2
+        // Static variables do not depend on an object, and you also don't need to create any object for them
         static String zodiacsign = "Sagittarius";
 
         // Static method to print the zodiac sign for Person2
