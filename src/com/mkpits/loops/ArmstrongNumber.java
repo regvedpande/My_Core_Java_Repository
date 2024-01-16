@@ -25,7 +25,7 @@ public class ArmstrongNumber {
 
         while (store2!=0) {
             
-            int remainder = store2/10;
+            int remainder = store2%10;
             for (int i = 0; i <=length; i++) {
 
                 multiple = multiple * remainder;
