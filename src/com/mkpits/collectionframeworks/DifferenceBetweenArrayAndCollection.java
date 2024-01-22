@@ -20,12 +20,12 @@ package com.mkpits.collectionframeworks;
 // Based on data structures: Collections are implemented using underlying data structures such as linked lists or trees, which provide ready-made methods for common operations.
 // Can only hold object types: Collections cannot store primitive data types directly.
 
-import java.util.Arrays;
 import java.util.ArrayList;
 
 public class DifferenceBetweenArrayAndCollection {
     
-//Array Usage   
+public static void main(String[] args) {
+        //Array Usage   
 int[] numbers = new int[5]; // Array of 5 integers
 numbers[0] = 10;
 numbers[1] = 20;
@@ -38,5 +38,7 @@ names.add("Bob");
 // ...
 names.remove(0); // Removing elements
 System.out.println(names.size()); // Checking size
+    }
 
 }
+

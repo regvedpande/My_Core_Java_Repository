@@ -1,4 +1,6 @@
-// List :
+package com.mkpits.collectionframeworks;
+
+//List :
 // List is child interface of Collection.
 // If we want to represent a group of individual objecis as a single entity,
 // where duplicates are allowed and insertion order preserved then we should go for List.
