@@ -15,6 +15,8 @@ public class CheckingEmptinessInStack {
 
 		System.out.println("Checking if the stack is empty or not : " + holyslogans.isEmpty());
 
+		System.out.println();
+
 	}
 
 }
