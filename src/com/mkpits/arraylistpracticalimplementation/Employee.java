@@ -1,4 +1,4 @@
-package com.mkpits.arraylist;
+package com.mkpits.arraylistpracticalimplementation;
 
 import java.util.Objects;
 
