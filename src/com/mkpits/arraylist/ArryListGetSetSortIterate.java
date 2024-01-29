@@ -11,7 +11,7 @@ public class ArryListGetSetSortIterate {
 
         ArrayList<String> ramjanmabhoomi = new ArrayList<String>();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("How many you want to invite : ");
+        System.out.println("How many you want to invite to Ram Janmabhoomi : ");
         int list = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < list; i++) {
