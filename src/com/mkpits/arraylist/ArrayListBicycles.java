@@ -11,28 +11,28 @@ public class ArrayListBicycles {
         ArrayList<String> bicycles = new ArrayList<String>();
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("How many Bicycles you want to buy : " );
-        int count  = Integer.parseInt(br.readLine());
+        System.out.println("How many Bicycles you want to buy: ");
+        int count = Integer.parseInt(br.readLine());
 
-       for (int i = 0; i < count; i++) {
-        
-        System.out.println("Enter Bicycle Number");
-        bicycles.add(br.readLine());
-       }
+        for (int i = 0; i < count; i++) {
+            System.out.println("Enter Bicycle Number");
+            bicycles.add(br.readLine());
+        }
 
-       System.out.println("Your List of Bicycles are : " +bicycles);
+        System.out.println("Your List of Bicycles are: " + bicycles);
 
+        System.out.println("Do you wish to Remove any Bicycle: ");
+        String remove = br.readLine();
 
-       System.out.println("Do you wish to Remove any Bicycle : ");
-       String remove = br.readLine();
-       bicycles.remove(remove);
+        // Remove the bicycle only if it exists in the list
+        if (bicycles.remove(remove)) {
+            System.out.println("Bicycle removed successfully.");
+        } else {
+            System.out.println("Bicycle not found in the list.");
+        }
 
-       Object [] bicycle = bicycles.toArray();
-
-       System.out.println("Your Updated List of Bicycles are : " +ArrayList.bicycle);
-    //    for (Object string : bicycle) {
-    //     System.out.println(string);
-    //    }
-
+        // Display the updated list
+        Object[] bicycle = bicycles.toArray();
+        System.out.println("Your Updated List of Bicycles are: " + bicycle);
     }
 }

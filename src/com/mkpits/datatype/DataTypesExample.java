@@ -32,7 +32,7 @@ public class DataTypesExample {
 
 		// User-Defined/Custom Data Type (Class)
 		// Example of a simple class representing a person
-		Person person = new Person("John Doe", 25);
+		String person = new Person("John Doe", 25);
 
 		// Accessing attributes of the Person class
 		String personName = person.getName();

@@ -4,7 +4,7 @@ public class DataTypeInitialization {
 	public static void main(String[] args) {
 		// Create a DataTypeDeclaration object with values for all data types
 		DataTypeDeclaration d = new DataTypeDeclaration(true, 'R', (byte) 12, (short) 11, 81, 90498748823L, 12.5f,
-				233.40, "Regved Pande", new boolean[] { true, false, true });
+				233.40);
 
 		// Print the values of all data types
 		System.out.println("booleanValue: " + d.booleanValue);
