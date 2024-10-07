@@ -13,9 +13,45 @@ public class SchrodingerCat {
 		this.subconditions = new ArrayList<SchrodingerCat>();
 	}
 
+	// {{ edit_1 }}
+	public SchrodingerCat(String name, String data) {
+		this.name = name;
+		this.data = data;
+		this.subconditions = new ArrayList<SchrodingerCat>();
+	}
+	// {{ edit_1 }}
+
+	// {{ edit_2 }}
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean isDecayed() {
+		return decayed;
+	}
+
+	public void setDecayed(boolean decayed) {
+		this.decayed = decayed;
+	}
+	// {{ edit_2 }}
+
+	// {{ edit_3 }}
+	@Override
+	public String toString() {
+		return "SchrodingerCat{" +
+				"name='" + name + '\'' +
+				", data='" + data + '\'' +
+				", decayed=" + decayed +
+				'}';
+	}
+	// {{ edit_3 }}
+
 	public void addSubConditions(SchrodingerCat node) {
 		this.subconditions.add(node);
-
 	}
 
 	public String print(int level) {
