@@ -62,4 +62,11 @@ public class SchrodingerCat {
 		}
 		return ret;
 	}
+
+	public static void main(String[] args) {
+		SchrodingerCat cat1 = new SchrodingerCat("cat1", "alive");
+		SchrodingerCat cat2 = new SchrodingerCat("cat2", "dead");
+		cat1.addSubConditions(cat2);
+		System.out.println(cat1.print(0));
+	}
 }
