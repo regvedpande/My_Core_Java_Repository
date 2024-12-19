@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cylsys</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2A2A72;
+            padding: 1rem 2rem;
+            color: #FFF;
+        }
+
+        .navbar .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .navbar nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .quote-btn {
+            background-color: #FFA500;
+            color: #FFF;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: linear-gradient(135deg, #7F00FF, #E100FF);
+            color: #FFF;
+        }
+
+        .contact-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #FFF;
+            border-radius: 8px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #CCC;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 0.75rem;
+            background-color: #2A2A72;
+            color: #FFF;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #F0F0F0;
+            padding: 2rem;
+            color: #333;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem 0;
+            border-top: 1px solid #CCC;
+        }
+
+        .footer-bottom div {
+            flex: 1;
+        }
+
+        .footer-bottom ul {
+            list-style: none;
+            padding: 1rem 0;
+        }
+
+        .footer-bottom h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-bottom ul li {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">CYLSYS</div>
+        <nav>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <button class="quote-btn">Request A Quote</button>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h1>Get in touch with us</h1>
+        <p>We're here to assist you</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Name*" required>
+            <input type="email" placeholder="Email*" required>
+            <input type="tel" placeholder="Phone Number (optional)">
+            <textarea placeholder="Message"></textarea>
+            <label>
+                <input type="checkbox"> I would like to be contacted with news and updates about your services
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="company-info">
+                <p><strong>Pawas Goyal</strong></p>
+                <p>CEO of Cylsys Software Solution Pvt. Ltd.</p>
+                <p>CYLSYS understood how to run a business and to sustain a long term business relation with clients.</p>
+            </div>
+            <div class="offices">
+                <h3>Our Offices</h3>
+                <ul>
+                    <li><strong>Corporate Office:</strong> Unit No.5, Second Floor, Harmony Mall Goregaon West, Mumbai 400104</li>
+                    <li><strong>Mumbai Office:</strong> 85/86, First Floor, Harmony Mall, Goregaon West, Mumbai 400104</li>
+                    <li><strong>Dubai Office:</strong> P.O.Box:- 1815, Churchill Tower Business Bay, Dubai</li>
+                    <li><strong>Singapore Office:</strong> 30 Prinsep Street Singapore 188647</li>
+                    <li><strong>USA Office:</strong> 26 pleasant plains road Franklin Park, NJ, 08823</li>
+                    <li><strong>Gadarwara Office:</strong> MP State Highway 22, Gadarwara Madhya Pradesh - 487551.</li>
+                </ul>
+            </div>
+            <div class="contact-details">
+                <p><strong>Email Address</strong></p>
+                <p>For Sales Enquiries: <a href="mailto:sales@cylsys.com">sales@cylsys.com</a></p>
+                <p><strong>Number</strong></p>
+                <p>Call Today: +91 9897502270</p>
+                <p>Cylsys WhatsApp Sales Bot: +91 9897502270</p>
+                <p><strong>Social Media</strong></p>
+                <p>[Social media icons here]</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="services">
+                <h3>Services</h3>
+                <ul>
+                    <li>Software Consulting</li>
+                    <li>Mobile Development</li>
+                    <li>QA & Testing</li>
+                    <li>Hire Developer</li>
+                    <li>Digital Marketing</li>
+                    <li>UI/UX Design</li>
+                    <li>Software Development</li>
+                </ul>
+            </div>
+            <div class="products">
+                <h3>Products</h3>
+                <ul>
+                    <li>Cylsys CRM</li>
+                    <li>Cylsys HRMS</li>
+                    <li>Cylsys Mailblitz</li>
+                    <li>Cylsys Hire</li>
+                    <li>Cylsys ERP</li>
+                    <li>Cylsys IT Asset</li>
+                    <li>Cylsys IT Support</li>
+                </ul>
+            </div>
+            <div class="other-links">
+                <h3>Other Links</h3>
+                <ul>
+                    <li>Company</li>
+                    <li>Certification</li>
+                    <li>Clients</li>
+                    <li>Contact Us</li>
+                    <li>Terms of Use</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
